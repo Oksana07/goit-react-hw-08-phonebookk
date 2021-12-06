@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('https://images.wallpaperscraft.ru/image/single/noutbuk_chashka_ochki_rastenie_114948_1280x720.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+button {
+    background-color: #a5e905dc;
+    color: white;
+    border-radius: 7px;
+    border-color: #a5e905dc;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0a0131ab;
+    color: white;
+    border-color: #a5e905dc;
+}
+
+button:disabled {
+    cursor: auto;
+    background-color: #0a0131ab;
+    text-decoration: line-through;
+}
+
+.Spinner {
+    position: absolute;
+    top: 15%;
+    right: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}

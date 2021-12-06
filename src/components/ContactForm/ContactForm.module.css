@@ -1,0 +1,46 @@
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0px 0 10px#6be944;
+    color: #a5e905dc;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    max-width: 200px;
+    width: 100%;
+    padding-bottom: 15px;
+    color: #a5e905dc;
+}
+.formInput {
+    padding-left: 10px;
+    margin-top: 2px;
+    height: 25px;
+    border-radius: 10px;
+}
+.formInput:hover,
+.formInput:focus {
+    outline: none;
+    border: none;
+    box-shadow: 0 14px 28px rgba(193, 252, 57, 0.801),
+        0 10px 10px rgba(127, 206, 24, 0.719);
+}
+
+.contactForm {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 20px;
+    display: block;
+    border: 2px solid#a5e905dc;
+    border-radius: 20px;
+    text-shadow: 0 0 15px #a5e905dc;
+    background-color: rgba(140, 141, 138, 0.801);
+}

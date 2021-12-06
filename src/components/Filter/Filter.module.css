@@ -1,0 +1,36 @@
+.label {
+    font-size: 19px;
+    width: 300px;
+    text-shadow: 0px 0 10px #6be944;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-weight: 600;
+    padding-top: 15px;
+    max-width: 100%;
+    color: #6be944;
+}
+.formInput {
+    padding-left: 10px;
+    margin-top: 2px;
+    height: 25px;
+    border-radius: 20px;
+}
+.formInput:hover,
+.formInput:focus {
+    outline: none;
+    border: none;
+    box-shadow: 0 14px 28px rgba(204, 212, 185, 0.767),
+        0 10px 10px rgba(210, 236, 186, 0.842);
+}
+.title {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 15px #6be944;
+    color: #6be944;
+    text-align: center;
+    border-radius: 20px;
+}

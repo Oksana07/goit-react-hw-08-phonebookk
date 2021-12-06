@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+.avatar {
+    margin-right: 4px;
+}
+.name {
+    font-weight: 700;
+    margin-right: 12px;
+    text-shadow: 0 0 15px #6be944;
+    color: #6be944;
+}

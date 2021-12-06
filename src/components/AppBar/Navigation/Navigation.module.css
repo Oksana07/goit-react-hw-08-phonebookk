@@ -1,0 +1,19 @@
+.link {
+    height: 60px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #c8dac2;
+    text-shadow: 0px 0 10p #c8dac2;
+}
+.link:hover {
+    background-color: #c8dac2;
+    color: #6be944;
+    border-bottom: #6be944 solid 4px;
+}
+.activeLink {
+    color: #6be944;
+    border-bottom: #6be944 solid 4px;
+}
